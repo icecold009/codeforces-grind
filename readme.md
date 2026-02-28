@@ -37,6 +37,7 @@ Problems are organized by difficulty rating (Codeforces rating system):
 
 - **template.cpp** - C++ solution template with optimizations
 - **template.py** - Python solution template
+- **template.php** - PHP 8.1+ solution template
 - **generate_problem.sh** - Script to generate new problem directories
 - **test.sh** - Testing utility for solutions
 
@@ -76,7 +77,7 @@ See [notes/progress.md](notes/progress.md) to monitor:
 
 ## 🔧 Tech Stack
 
-- **Languages**: C++, Python
+- **Languages**: C++, Python, PHP 8.1+
 - **Platform**: Codeforces
 - **Tools**: Custom scripts for problem generation and testing
 

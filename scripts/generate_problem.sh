@@ -17,8 +17,11 @@ if [ "$LANG" == "cpp" ]; then
 elif [ "$LANG" == "py" ]; then
     EXT="py"
     TEMPLATE="template.py"
+elif [ "$LANG" == "php" ]; then
+    EXT="php"
+    TEMPLATE="template.php"
 else
-    echo "Unsupported language."
+    echo "Unsupported language. Use: cpp, py, php"
     exit 1
 fi
 

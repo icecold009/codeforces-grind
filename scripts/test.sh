@@ -13,6 +13,8 @@ elif [[ $1 == *.py ]]; then
     python3 "$1"
 elif [[ $1 == *.php ]]; then
     php "$1"
+elif [[ $1 == *.js ]]; then
+    node "$1"
 else
-    echo "Unsupported file type. Use: .cpp, .py, .php"
+    echo "Unsupported file type. Use: .cpp, .py, .php, .js"
 fi
